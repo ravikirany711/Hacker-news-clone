@@ -1,0 +1,21 @@
+{{#if error}}
+<div class="alert alert-danger">{{error}}</div>
+
+
+
+{{/if}}
+
+
+
+
+
+
+{{#each errors}}     <!--we are looping through the errors(array) in the card body(This is how we loop in handle bars-->
+
+<div class="alert alert-danger">{{text}}</div>
+
+
+{{else}}
+
+{{/each}}
+
